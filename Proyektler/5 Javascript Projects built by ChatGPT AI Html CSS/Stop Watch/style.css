@@ -1,0 +1,40 @@
+.stopwatch {
+    text-align: center;
+}
+
+.display {
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #ccc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+.start {
+    border: 2px solid #1111;
+    border-radius: 5px;
+    color: #111;
+}
+
+.stop {
+    border: 2px solid #1111;
+    border-radius: 5px;
+    color: #222;
+}
+
+.reset {
+    border: 2px solid #1111;
+    border-radius: 5px;
+    color: #333;
+}

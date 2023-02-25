@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Personal Portfolio | Responsive Website Design</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+            <li><a href="#testimonial" onclick="toggleMenu();">Testimonial</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hello, I'm <br><span>Suleiman Hajizadeh.</span></h2>
+            <h3>I'm a Front End Web Developer.</h3>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+        </div>
+        <div class="contact">
+            <div class="contentBx w50">
+                <h3>I'm a Front End Web Developer.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium provident totam tempora est,
+                    maxime itaque quae perspiciatis iste distinctio magni dolor, possimus adipisci fuga. Accusantium
+                    debitis natus aliquid nobis modi! Lorem ipsum dolor sit amet consectetur adipisicing elit.<br><br>
+                    Laudantium labore non nihil! A, dolor eaque sunt error assumenda odio itaque blanditiis aliquid
+                    expedita totam voluptates repellat quo fuga vel et? Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Incidunt qui eligendi adipisci, dolorum cupiditate veritatis perferendis cumque
+                    nesciunt fugit exercitationem dicta minima ab rem rerum laborum. Deserunt cum laboriosam hic!</p>
+            </div>
+            <div class="w50">
+                <img src="img1.jpg" class="img">
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>Our Services</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <img src="icon1.png">
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque cum atque, ducimus pariatur tenetur
+                    expedita eum? Error ab doloremque quasi, nesciunt facilis eligendi perspiciatis quo odio, suscipit
+                    delectus corrupti quod.</p>
+            </div>
+
+            <div class="servicesBx">
+                <img src="icon2.png">
+                <h2>Web Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque cum atque, ducimus pariatur tenetur
+                    expedita eum? Error ab doloremque quasi, nesciunt facilis eligendi perspiciatis quo odio, suscipit
+                    delectus corrupti quod.</p>
+            </div>
+
+            <div class="servicesBx">
+                <img src="icon3.png">
+                <h2>Android App</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque cum atque, ducimus pariatur tenetur
+                    expedita eum? Error ab doloremque quasi, nesciunt facilis eligendi perspiciatis quo odio, suscipit
+                    delectus corrupti quod.</p>
+            </div>
+
+            <div class="servicesBx">
+                <img src="icon4.png">
+                <h2>Photography</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque cum atque, ducimus pariatur tenetur
+                    expedita eum? Error ab doloremque quasi, nesciunt facilis eligendi perspiciatis quo odio, suscipit
+                    delectus corrupti quod.</p>
+            </div>
+
+            <div class="servicesBx">
+                <img src="icon5.png">
+                <h2>Content Writing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque cum atque, ducimus pariatur tenetur
+                    expedita eum? Error ab doloremque quasi, nesciunt facilis eligendi perspiciatis quo odio, suscipit
+                    delectus corrupti quod.</p>
+            </div>
+
+            <div class="servicesBx">
+                <img src="icon6.png">
+                <h2>Video Editing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque cum atque, ducimus pariatur tenetur
+                    expedita eum? Error ab doloremque quasi, nesciunt facilis eligendi perspiciatis quo odio, suscipit
+                    delectus corrupti quod.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>Our Latest Work</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <img src="product1.jpg">
+            </div>
+
+            <div class="workBx">
+                <img src="product2.jpg">
+            </div>
+
+            <div class="workBx">
+                <img src="product3.jpg">
+            </div>
+
+            <div class="workBx">
+                <img src="product4.jpg">
+            </div>
+        </div>
+
+        <div class="heading">
+            <a href="#" class="btn">View More</a>
+        </div>
+    </section>
+
+    <section class="testimonial" id="testimonial">
+        <div class="heading">
+            <h2>Testimonial</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="testimonialBx">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nulla rem ratione excepturi libero
+                    neque autem odit, perspiciatis asperiores sequi vero quae cumque rerum quas alias reiciendis
+                    inventore? Eveniet, eos.</p>
+                <h3>Someone Famous<br><span>Crative Designer</span></h3>
+            </div>
+            <div class="testimonialBx">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nulla rem ratione excepturi libero
+                    neque autem odit, perspiciatis asperiores sequi vero quae cumque rerum quas alias reiciendis
+                    inventore? Eveniet, eos.</p>
+                <h3>Someone Famous<br><span>Web Designer</span></h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <h2>Contact Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>Baku city, Binagadi district, Bilajari settlement, <br>Asaf Zeyanlli street,
+                                <br>house 49B
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>+994705506907</p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>suleyman.hacizade1@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Message Me</h3>
+                    <input type="text" name="" placeholder="Full Name">
+                    <input type="email" name="" placeholder="Email">
+                    <textarea placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="copyright">
+        <p>Copyright © 2023 Online Tutorials. All right Reserved.</p>
+    </div>
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', function () {
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+
+        function toggleMenu() {
+            var menuToggle = document.querySelector('.toggle');
+            var menu = document.querySelector('.menu');
+            menuToggle.classList.toggle('active');
+            menu.classList.toggle('active');
+        };
+    </script>
+
+<script src="https://kit.fontawesome.com/1cfaf25dc2.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

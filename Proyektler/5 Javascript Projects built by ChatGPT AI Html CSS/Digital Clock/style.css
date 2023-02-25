@@ -1,0 +1,14 @@
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 5rem;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
+
+.time {
+    display: inline-block;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Animated Profile Cards</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="user">
+            <div class="imgBx">
+                <img src="user.jpg">
+            </div>
+            <div class="content">
+                <h2>Someone Famous<br><span>Product Designer</span></h2>
+            </div>
+            <span class="toggle"></span>
+        </div>
+        <ul class="contact">
+            <li style="--clr:#c71610;--i:0;">
+                <a href="#">
+                    <div class="iconBx"><i class="fa-solid fa-envelope"></i></div>
+                    <p>someone@email.com</p>
+                </a>
+            </li>
+            <li style="--clr:#171515;--i:1;">
+                <a href="#">
+                    <div class="iconBx"><i class="fa-brands fa-github"></i></div>
+                    <p>github/@someone</p>
+                </a>
+            </li>
+            <li style="--clr:#0a66c2;--i:2;">
+                <a href="#">
+                    <div class="iconBx"><i class="fa-brands fa-linkedin-in"></i></div>
+                    <p>linkedin/@someone</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <script>
+        let toggle = document.querySelector('.toggle');
+        let card = document.querySelector('.card');
+        toggle.onclick = function () {
+            card.classList.toggle('active');
+        }
+    </script>
+
+</body>
+
+</html>
