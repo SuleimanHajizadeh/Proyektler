@@ -1,0 +1,565 @@
+/* Yorum Satiri */
+
+* {
+    font-size: 12px;
+    color: red;
+}
+
+p {
+    font-size: 12px;
+    color: red;
+}
+
+#icerik {
+    font-size: 12px;
+    color: red;
+}
+
+.baslik {
+    font-size: 12px;
+    color: red;
+}
+
+h1 {
+    color: yellow;
+}
+
+p {
+    color: yellow;
+}
+
+h1,
+p {
+    color: red;
+}
+
+body {
+    background: blue;
+}
+
+body {
+    background-image: url('arkaplan.jpg');
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-position: right top;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #fff;
+    background-image: url('arkaplan.jpg');
+    background-repeat: no-repeat;
+    background-attachment: right top;
+    background-position: fixed;
+}
+
+body {
+    background: #ffffff url("arkaplan.jpg") no-repeat right top;
+}
+
+.kutu {
+    border-style: dotted dashed solid double;
+}
+
+.birinciKutu {
+    border-style: solid;
+    border-width: 3px;
+}
+
+.ikinciKutu {
+    border-style: solid;
+    border-width: thick;
+}
+
+.ucuncuKutu {
+    border-style: solid;
+    border-width: 2px 1px 3px 5px;
+}
+
+.birinciKutu {
+    border-style: solid;
+    border-color: red;
+}
+
+.ikinciKutu {
+    border-style: solid;
+    border-color: #FFF000;
+}
+
+.ucuncuKutu {
+    border-style: solid;
+    border-color: red green blue yellow;
+}
+
+.kutu {
+    border: 1px solid red;
+    border-radius: 5px;
+    outline-style: solid;
+    outline-color: red;
+}
+
+.birinciKutu {
+    outline-style: solid;
+    outline-width: 5px;
+}
+
+.ikinciKutu {
+    outline-style: solid;
+    outline-width: thin;
+}
+
+.dorduncuKutu {
+    outline: 2px solid #ff0000;
+    outline-offset: 10px;
+}
+
+div {
+    border: 1px solid #000000;
+    background-color: aqua;
+    margin-top: 50px;
+    margin-right: 80px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+
+div {
+    margin: 50px 80px 10px 100px;
+}
+
+div {
+    border: 1px solid #000000;
+    background-color: yellow;
+    padding-top: 30px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+
+div {
+    padding: 30px 60px 50px 20px;
+}
+
+div {
+    background-color: yellow;
+    width: 500px;
+    height: 100px;
+}
+
+div {
+    background-color: aqua;
+    max-width: 500px;
+    max-height: 150px;
+    min-width: 300px;
+    min-height: 50px;
+}
+
+h1 {
+    text-align: center;
+    text-align: right;
+    text-align: left;
+    text-align: justify;
+    text-align: left right center justify;
+}
+
+h1 {
+    color: #ff0000;
+}
+
+h1 {
+    text-decoration: line-through;
+    text-decoration: overline;
+    text-decoration: underline;
+    text-decoration: none;
+    text-decoration: line-through overline underline none;
+}
+
+h1 {
+    text-transform: capitalize;
+    text-transform: lowercase;
+    text-transform: uppercase;
+}
+
+p {
+    text-indent: 20px;
+}
+
+h1 {
+    letter-spacing: 5px;
+}
+
+p {
+    line-height: 5px;
+}
+
+p {
+    word-spacing: 5px;
+}
+
+h1 {
+    text-shadow: 3px 5px #777777;
+}
+
+h1 {
+    font-family: Arial, "Times New Roman", "sans-serif";
+}
+
+h1 {
+    font-style: italic;
+    font-style: oblique;
+    font-style: normal;
+    font-style: italic oblique normal;
+}
+
+h1 {
+    font-size: 3px;
+}
+
+h1 {
+    font-weight: normal;
+    font-weight: 500;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h1 {
+    font-variant: small-caps;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: yellow;
+}
+
+ol {
+    list-style-type: circle;
+}
+
+ol {
+    list-style-image: url(arkaplan.jpg);
+}
+
+ol.disarida {
+    list-style-position: outside;
+}
+
+ol.iceride {
+    list-style-position: inside;
+}
+
+ul {
+    list-style: square inside url(arkaplan.jpg);
+}
+
+table {
+    border-collapse: collapse;
+    width: 500px;
+    font-family: Century Gothic;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #888;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    display: block;
+    display: inline-block;
+    display: none;
+}
+
+.kutu1,
+.kutu2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.kutu2 {
+    background-color: blue;
+    position: relative;
+    top: 15px;
+    left: 50px;
+}
+
+.kutu1,
+.kutu2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.kutu2 {
+    position: fixed;
+    bottom: 0;
+    background-color: blue;
+}
+
+.kutu1,
+.kutu2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.kutu2 {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    background-color: blue;
+}
+
+.kutu1,
+.kutu2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.kutu2 {
+    position: sticky;
+    top: 0;
+    background-color: blue;
+}
+
+.kutu1,
+.kutu2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.kutu2 {
+    position: absolute;
+    top: 0;
+    left: 65px;
+    z-index: -2;
+    background-color: blue;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: #ff8811;
+    overflow: auto;
+    overflow: scroll;
+    overflow: visible;
+    overflow: hidden;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: #ff8811;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.kutu1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    float: left;
+}
+
+.kutu2 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    float: left;
+}
+
+.kutu3 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    float: left;
+}
+
+.temizle {
+    clear: both;
+    clear: none;
+    clear: left;
+    clear: right;
+}
+
+div p {
+    color: blue;
+}
+
+div>p {
+    color: blue;
+}
+
+div+p {
+    color: blue;
+}
+
+div~p {
+    color: blue;
+}
+
+div:hover {
+    background-color: blue;
+}
+
+input[type="text"] {
+    background-color: red;
+}
+
+tr:nth-child(2n+0) {
+    background-color: #dddddd;
+}
+
+p:first-child {
+    color: red;
+}
+
+p:last-child {
+    color: blue;
+}
+
+p::first-line {
+    color: red;
+}
+
+h1::first-letter {
+    color: red;
+}
+
+h1::before {
+    content: 'Before';
+    color: red;
+}
+
+h1::after {
+    content: 'After';
+    color: red;
+}
+
+h1::selection {
+    color: white;
+    background-color: red;
+}
+
+img {
+    opacity: 70%;
+    filter: alpha(opacity=70)
+        /* eski tarayicilar icin */
+    ;
+}
+
+li {
+    list-style-type: none;
+    background-color: #333333;
+    width: 150px;
+}
+
+li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Century Gothic";
+    display: block;
+    padding: 15px;
+}
+
+li a:hover {
+    background-color: #000000;
+}
+
+ol {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-family: "Century Gothic";
+}
+
+li a:hover {
+    background-color: #000000;
+}
+
+.acilirMenu-Icerik {
+    position: absolute;
+    background-color: #f5f5f5;
+    width: 160px;
+}
+
+.acilirMenu-Icerik a {
+    color: black;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+}
+
+.acilirMenu-Icerik a:hover {
+    background-color: #cfcdcc;
+}
+
+.acilirMenu-Icerik {
+    position: absolute;
+    background-color: #f5f5f5;
+    width: 160px;
+}
+
+.acilirMenu-Icerik a {
+    color: black;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+}
+
+.acilirMenu-Icerik a:hover {
+    background-color: #cfcdcc;
+}
+
+.acilirMenu-Icerik {
+    position: absolute;
+    background-color: #f5f5f5;
+    width: 160px;
+    display: none;
+}
+
+.acilirMenu-Icerik a {
+    color: black;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+}
+
+.acilirMenu-Icerik a:hover {
+    background-color: #cfcdcc;
+}
+
+.acilirMenu:hover .acilirMenu-Icerik {
+    display: block;
+}
